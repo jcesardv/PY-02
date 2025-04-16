@@ -1,13 +1,11 @@
-package org.example.solid;
+package org.example.solid.scenario.sr;
 
 import java.util.List;
 
-
-// -> Invoice
-public class SingleResponsibilityScenario {
+public class Invoice {
     private List<Item> items;
 
-    public SingleResponsibilityScenario(List<Item> items) {
+    public Invoice(List<Item> items) {
         this.items = items;
     }
 

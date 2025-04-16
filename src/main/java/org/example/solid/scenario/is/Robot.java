@@ -1,7 +1,6 @@
-package org.example.solid;
+package org.example.solid.scenario.is;
 
-// -> Robot
-public class InterfaceSegregationScenario implements Worker {
+public class Robot implements Worker {
 
  public void work() {
      System.out.println("Robot working...");

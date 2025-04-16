@@ -1,11 +1,11 @@
-package org.example.solid;
+package org.example.solid.scenario.di;
 
 // -> Notification
-public class DependencyInversionScenario {
+public class Notification {
 
     private EmailService emailService;
 
-    public DependencyInversionScenario() {
+    public Notification() {
         this.emailService = new EmailService(); // X dependencia directa
     }
 

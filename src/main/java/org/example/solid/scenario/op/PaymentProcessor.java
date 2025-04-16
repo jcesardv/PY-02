@@ -1,7 +1,6 @@
-package org.example.solid;
+package org.example.solid.scenario.op;
 
-// -> PaymentProcessor
-public class OpenCloseScenario {
+public class PaymentProcessor {
 
     public void processPayment(String type) {
         if (type.equals("credit"))

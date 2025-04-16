@@ -1,4 +1,4 @@
-package org.example.solid;
+package org.example.solid.scenario.is;
 
 public interface Worker {
     void work();
